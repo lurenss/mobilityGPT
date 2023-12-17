@@ -1,3 +1,5 @@
 geopandas
 polyline
 tqdm
+pyarrow
+fastparquet
