@@ -117,7 +117,7 @@ if __name__ == '__main__':
         for i, coordinate in enumerate(polyline_data):
             # Calculate the timestamp for the coordinate
             timestamp = unix_start_time + i * time_increment
-            coordinates_with_timestamps.append((coordinate[1], coordinate[0], timestamp)) 
+            coordinates_with_timestamps.append((coordinate[0], coordinate[1], timestamp)) 
 
         return coordinates_with_timestamps
 
